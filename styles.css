@@ -41,9 +41,5 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    
 }
-main div
-{
-    margin: auto;
-}
+
