@@ -6,19 +6,44 @@
 }
 html{
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header
 {
     display: flex;
-    font-size: 2.0rem;
-    padding: 0px 4.0rem;
+    font-size: 1.6rem;
+    padding: 0rem 4.1rem;
 }
 header div{
     margin-left: auto ;
-    padding-top: 10px;
+    padding-top: 1.0rem;
+}
+ul{
+    display: flex;
+    align-items: center;
 }
 header li
 {
     display: inline;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
+}
+.icon-list
+{
+    width: 2.6rem;
+}
+.icon-avatar
+{   
+    width:3.6rem;
+    border-radius: 50%;
+
+}
+main 
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main div
+{
+    margin: auto;
 }
