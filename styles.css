@@ -1,0 +1,24 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header
+{
+    display: flex;
+    font-size: 2.0rem;
+    padding: 0px 4.0rem;
+}
+header div{
+    margin-left: auto ;
+    padding-top: 10px;
+}
+header li
+{
+    display: inline;
+    margin: 0 0.5rem;
+}
