@@ -134,7 +134,7 @@ main .main-logo img{
 }
 
 footer{
-    height: 12rem;
+    height: 6rem;
     width: 100%;
     background-color: #f8f8f8;
     font-size: 1.4rem;
@@ -142,17 +142,16 @@ footer{
     bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: #949393;
 }
-/*footer section
-{
-    padding-left: 1rem;
-    padding: 1.7rem;
-    border: 1px solid #dbdada ;
-}*/
+
 footer ul{
-    display: flex;
+    margin:10px;
+    list-style: none;
 }
 footer li{
     margin: 0 1rem;
-    list-style: none;
+}
+.right-ul{
+    margin-left: auto;
 }
