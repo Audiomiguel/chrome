@@ -6,19 +6,95 @@
 }
 html{
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header
 {
     display: flex;
-    font-size: 2.0rem;
-    padding: 0px 4.0rem;
+    font-size: 1.6rem;
+    padding: 0rem 4.1rem;
 }
 header div{
     margin-left: auto ;
-    padding-top: 10px;
+    padding-top: 1.0rem;
+}
+ul{
+    display: flex;
+    align-items: center;
 }
 header li
 {
     display: inline;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
+}
+.icon-list
+{
+    width: 2.6rem;
+}
+.icon-avatar
+{   
+    width:3.6rem;
+    border-radius: 50%;
+
+}
+main 
+{
+    margin-top: 10.0rem;
+    text-align: center;
+}
+main .main-logo
+{
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4.0rem;
+}
+
+main .main-logo img{
+    height: 10rem;
+    width: 29.2rem;
+}
+.main-input
+{
+    margin-bottom: 3.0rem;
+
+}
+.main-input-container
+{
+    display: flex;
+    width: 60rem;
+    height: 4.8rem;
+    margin: 0 auto;
+    border: 1px solid #dbdada;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.main-input-container input{
+    height: 4.0srem;
+    width: 55rem;
+    border: none;
+    outline: none;
+    margin-right: 0.5rem;
+}
+.main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.search-icon{
+    background-image: url('https://w7.pngwing.com/pngs/456/948/png-transparent-computer-icons-desktop-web-search-engine-wordpress-com-search-icon-search-logo-website-circle-wordpresscom-thumbnail.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 1.2rem;
+}
+.micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
