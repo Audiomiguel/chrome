@@ -44,10 +44,9 @@ main
 }
 main .main-logo
 {
-    width: 30rem;
-    display: inline;
-    margin-bottom: 4.0rem;
-    float: right;
+    width: 35rem;
+    display: inline-block;
+    margin-bottom: 3.0rem;
 }
 
 main .main-logo img{
