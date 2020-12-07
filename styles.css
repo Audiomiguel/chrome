@@ -45,8 +45,9 @@ main
 main .main-logo
 {
     width: 30rem;
-    margin: 0 auto;
+    display: inline;
     margin-bottom: 4.0rem;
+    float: right;
 }
 
 main .main-logo img{
